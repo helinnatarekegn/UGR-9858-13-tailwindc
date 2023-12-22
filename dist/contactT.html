@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Helina Tarekegn</title>
+    <link href="output.css"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; 
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-yellow-100">
+
+    <header class="text-center py-4 bg-yellow-600 font-bold text-3xl">
+        <h1>Contact</h1>
+    </header>
+
+    <main class="flex-1 p-8 md:p-32 md:pt-20 ">
+
+        <address class="text-left text-lg ">
+            <p class="mb-16"><span class="text-yellow-600 text-xl">Phone</span>: +(251)9 4283 8202</p>
+            <p class="mb-16"><span class="text-yellow-600 text-xl">Email</span>: <a href="mailto:helinatarekegn1213@gmail.com" class="text-purple-700">helinatarekegn1213@gmail.com</a></p>
+            <p class="mb-16"><span class="text-yellow-600 text-xl">Home Address</span>: CMC, AddisAbaba, Ethiopia</p>
+            <p><span class="text-yellow-600 text-xl">Twitter</span>: <a href="https://twitter.com/@helinna" target="_blank" class="text-blue-500">@helinna</a></p>
+        </address>
+
+    </main>
+
+    <footer class="flex flex-col items-center justify-center mt-auto py-5 bg-yellow-600">
+
+        <section class="hidden md:block">
+            <ul class="flex space-x-4">
+                <li class="mr-4"><a href="homeT.html" class="text-2xl text-black">Home</a></li>
+                <li class="mr-4"><a href="aboutT.html" class="text-2xl text-black">About</a></li>
+                <li class="mr-4"><a href="hobbiesT.html" class="text-2xl text-black">Hobbies</a></li>
+                <li class="mr-4"><a href="portfolioT.html" class="text-2xl text-black">Portfolio</a></li>
+            </ul>
+        </section>
+
+        <nav id="hamburger-nav" class="md:hidden relative">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon cursor-pointer" onclick="toggleMenu()">
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                </div>
+                <div class="menu-links hidden fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-600  w-full flex items-center justify-center ">
+                    <ul class="text-right">
+                        <li class="mb-4"><a href="homeT.html" onclick="toggleMenu()" class="text-2xl ">Home</a></li>
+                        <li class="mb-4"><a href="aboutT.html" onclick="toggleMenu()" class="text-2xl ">About</a></li>
+                        <li class="mb-4"><a href="hobbiesT.html" onclick="toggleMenu()" class="text-2xl ">Hobbies</a></li>
+                        <li class="mb-4"><a href="portfolioT.html" onclick="toggleMenu()" class="text-2xl">Portfolio</a></li>
+                        <li class="mb-4"><a href="contactT.html" onclick="toggleMenu()" class="text-2xl">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="social-icons flex space-x-4">
+            <a href="https://www.instagram.com/@_.helinna__" class="social-icon" target="_blank">
+                <img src="/UGR-9858-13/src1/images/i.png" alt="Instagram" class="w-8 h-8 mr-8">
+            </a>
+            <a href="https://www.linkedin.com/in/@Helina Tarekegn" class="social-icon" target="_blank">
+                <img src="/UGR-9858-13/src1/images/l.png" alt="Linkedin" class="w-8 h-8 mr-8">
+            </a>
+            <a href="https://t.me/@heebiejeebiies" class="social-icon" target="_blank">
+                <img src="/UGR-9858-13/src1/images/t.png" alt="Telegram" class="w-8 h-8 mr-8">
+            </a>
+            <a href="https://www.facebook.com/@Helina Tarekegn" class="social-icon" target="_blank">
+                <img src="/UGR-9858-13/src1/images/f.png" alt="Facebook" class="w-8 h-8">
+            </a>
+        </div>
+
+        <div class="copy text-black">
+            <p>Copyrights reserved &copy; 2023</p>
+        </div>
+
+    </footer>
+
+    <script src="/UGR-9858-13/src1/javascript.js"></script>
+
+</body>
+</html>

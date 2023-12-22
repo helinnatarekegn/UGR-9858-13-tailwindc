@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Helina Tarekegn</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; 
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen home bg-cover bg-center" style="background-image: url('/UGR-9858-13/src1/images/med.jpeg'); height: 100vh;">
+
+    <header class="homeh flex items-center justify-between w-full fixed top-0 left-0 z-50 max-w-screen-lg mx-auto p-4">
+        <div class="logo">
+            <img src="/UGR-9858-13/src1/images/Eelina.png" alt="My Logo" class="rounded-full w-32 h-32 md:w-32 md:h-32 lg:w-48 lg:h-48">
+        </div>
+
+        <nav class="homen hidden md:flex items-center ml-auto ">
+            <ul class="flex items-center gap-4 ">
+                <li class="mr-4"><a href="homeT.html" class="lg:text-2xl md:text-lg text-black">Home</a></li>
+                <li class="mr-4"><a href="aboutT.html" class="lg:text-2xl md:text-lg text-black">About</a></li>
+                <li class="mr-4"><a href="hobbiesT.html" class="lg:text-2xl md:text-lg text-black">Hobbies</a></li>
+                <li class="mr-4"><a href="portfolioT.html" class="lg:text-2xl md:text-lg text-black">Portfolio</a></li>
+                <li><a href="contactT.html" class="lg:text-2xl md:text-lg text-black">Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav id="hamburger-nav" class="md:hidden relative">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon cursor-pointer" onclick="toggleMenu()">
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                    <span class="block w-6 h-1 bg-black transition duration-300 transform origin-center mb-1"></span>
+                </div>
+                <div class="menu-links hidden fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-600  w-full flex items-center justify-center ">
+                    <ul class="text-right">
+                        <li class="mb-4"><a href="homeT.html" onclick="toggleMenu()" class="text-2xl ">Home</a></li>
+                        <li class="mb-4"><a href="aboutT.html" onclick="toggleMenu()" class="text-2xl ">About</a></li>
+                        <li class="mb-4"><a href="hobbiesT.html" onclick="toggleMenu()" class="text-2xl ">Hobbies</a></li>
+                        <li class="mb-4"><a href="portfolioT.html" onclick="toggleMenu()" class="text-2xl">Portfolio</a></li>
+                        <li class="mb-4"><a href="contactT.html" onclick="toggleMenu()" class="text-2xl">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="homem flex flex-col items-center justify-center text-center pt-60 md:pt-60">
+        <section id="home" class="mb-8 text-left">
+            <h3 class="text-xl font-bold text-black font-poppins md:text-xl leading-tight">Helina Tarekegn</h3>
+            <p class="text-base text-black font-poppins md:text-xl">Media & Art Enthusiast | Software Engineer</p>
+            <button class="px-4 py-2 bg-yellow-600 text-black font-poppins text-base uppercase rounded-full hover:translate-x-0.25em tracking-wider"><a href="aboutT.html">See More...</a>
+        </section>
+
+        <section id="quote" class="max-w-3xl mx-auto text-base font-poppins text-black text-center pl-10 pr-2 ">
+            <blockquote>
+                "Behind every lens and within every edit, there's a story waiting to be told. Through media, I strive to capture the essence of moments and emotions."
+            </blockquote>
+        </section>
+    </main>
+
+    <footer class="flex flex-col items-center justify-center bg-yellow-600 mt-auto p-4 ">
+        <div class="social-icons flex gap-6 mb-4">
+            <a href="https://www.instagram.com/@_.helinna__" class="social-icon" target="_blank"><img src="/UGR-9858-13/src1/images/i.png" alt="Instagram" class="w-8 h-8 mr-8"></a>
+            <a href="https://www.linkedin.com/in/@Helina Tarekegn" class="social-icon" target="_blank"><img src="/UGR-9858-13/src1/images/l.png" alt="Linkedin" class="w-8 h-8 mr-8"></a>
+            <a href="https://t.me/@heebiejeebiies" class="social-icon" target="_blank"><img src="/UGR-9858-13/src1/images/t.png" alt="Telegram" class="w-8 h-8 mr-8"></a>
+            <a href="https://www.facebook.com/@Helina Tarekegn" class="social-icon" target="_blank"><img src="/UGR-9858-13/src1/images/f.png" alt="Facebook" class="w-8 h-8"></a>
+        </div>
+    </footer>
+
+    <script src="/UGR-9858-13/src1/javascript.js"></script>
+</body>
+
+</html>
